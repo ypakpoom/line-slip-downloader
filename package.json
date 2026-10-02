@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
     "@line/bot-sdk": "^11.0.0",
     "dotenv": "^18.0.5",
     "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
